@@ -1,0 +1,17 @@
+ handleLogout () {
+    console.log ("تم تشغيل الخروج") ؛
+    Router.push ( '/ تسجيل الدخول')؛
+    this.props.logout ()؛
+  }
+  
+  
+  خطأ: 
+    ● Header ›عند النقر على زر` logout`> call calls callout logout
+    لم يتم العثور على مثيل جهاز التوجيه.
+    يجب ألا تستخدم سوى "التالي / جهاز التوجيه" داخل جانب العميل من تطبيقك.
+      13 | handleLogout () {
+      14 | console.log ("تم تشغيل الخروج") ؛
+    > 15 | Router.push ( '/ تسجيل الدخول')؛
+      16 | this.props.logout ()؛
+      17 | }
+      18 | 
